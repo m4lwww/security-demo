@@ -1,7 +1,7 @@
-const API_KEY = "sk_live_51HqLyjWDarjtT1zdp7dc3kF9aQ2xYbVnM8";
+const API_KEY = process.env.API_KEY;
 
 function conectar() {
-  console.log("Conectando con la clave: " + API_KEY);
+  console.log("Clave cargada desde variable de entorno");
 }
 
 conectar();
